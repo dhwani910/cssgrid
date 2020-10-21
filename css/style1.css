@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#container{
+    display: grid;
+}
+#header{
+    min-height: 15vh;
+    background-color: blue;
+}
+#main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    min-height: 80vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+#col1{
+    background-color: red;
+    margin-right: 2vw;
+}
+#col2{
+    background-color: yellow;
+}
+
+
+#footer{
+    min-height: 5vh;
+    background-color: blue;
+
+}
